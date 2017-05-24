@@ -2,10 +2,10 @@
 set -e
 
 BASE_DIR=/home/sitemaster/backups
-SITE_DB_NAME='is_sdusa_django'
+SITE_DB_NAME='db_name'
 ODK_DB_NAME='odk_db'
-SQL_USER="root"
-SQL_PASS="343^kjfllgtTTorr"
+SQL_USER="login_db"
+SQL_PASS="password_db"
 CURRENTDATE=`date +%Y-%m-%d-%s`
 TRAC_DIR=/home/sitemaster/trac-data
 PROJECT_DIR=/home/django-demo/is-sdusa-src
